@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Select Image</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+
+<body>
+  <h4>Select an image to replace profile pictures:</h4>
+  <!-- To select the image that the user want to replace the profile pics with -->
+  <input type="file" id="imageInput">
+
+  <!-- Preview of the selected image -->
+  <img id="imagePreview" src="" alt="Image Preview" style="display: none;">
+
+  <!-- To save the image into the local storage of the chrome browser
+   -->
+  <button id="saveButton">Save Image</button>
+  <script src="popup.js"></script>
+</body>
+
+</html>
